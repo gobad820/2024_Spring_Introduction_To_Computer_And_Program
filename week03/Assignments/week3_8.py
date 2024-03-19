@@ -13,7 +13,7 @@ else:
     for i in range(len(str_num) // 2 + 1, len(str_num)):
         str_num_rear += str_num[i]
 
-if str_num_rear[::-1] == str_num_front:
+if str_num_rear[::-1] ==  str_num_front:
     print(f'{num}은(는) 거꾸로 정수입니다.')
 else:
     print(f'{num}은(는) 거꾸로 정수가 아닙니다.')
