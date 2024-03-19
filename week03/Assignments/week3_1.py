@@ -9,7 +9,7 @@ for i in range(3):
             if numbers[j] > number:
                 numbers.insert(j, number)
                 break
-            if j == i-1:
+            if j == i - 1:
                 numbers.append(number)
 
 print(numbers)

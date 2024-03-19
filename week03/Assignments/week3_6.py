@@ -7,12 +7,12 @@ n_list = []
 print()
 for i in range(n):
     m_list = []
-    index = i*n
+    index = i * n
     if (i % 2) == 0:
-        for j in range(index+1,index+n+1,1):
+        for j in range(index + 1, index + n + 1, 1):
             m_list.append(j)
     else:
-        for j in range(index+n,index,-1):
+        for j in range(index + n, index, -1):
             m_list.append(j)
     n_list.append(m_list)
 
@@ -20,4 +20,3 @@ for m in n_list:
     for j in m:
         print(f'{j:>2}', end='  ')
     print()
-

@@ -7,4 +7,4 @@ while height < 30:
     if height >= 30:
         break
     height -= 5
-print(f'\n우물을 탈출하는 데 걸린 날을 {day}일 입니다.',end='')
+print(f'\n우물을 탈출하는 데 걸린 날을 {day}일 입니다.', end='')
