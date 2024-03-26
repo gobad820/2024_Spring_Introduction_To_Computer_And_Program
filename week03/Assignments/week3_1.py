@@ -12,4 +12,5 @@ for i in range(3):
             if j == i - 1:
                 numbers.append(number)
 
-print(numbers)
+for i in numbers:
+    print(i, end=" ")
