@@ -1,16 +1,17 @@
-numbers = []
+a, b, c = input(f'세 정수를 입력하세요: ').split()
+a, b, c = int(a),int(b),int(c)
 
-for i in range(3):
-    number = int(input(f'{i + 1}번째 수를 입력하세요: '))
-    if i == 0:
-        numbers.append(number)
-    else:
-        for j in range(i):
-            if numbers[j] > number:
-                numbers.insert(j, number)
-                break
-            if j == i - 1:
-                numbers.append(number)
+if a > b and a > c and b > c:
+    print(c,a,b)
+elif a > b and a > c and b <= c:
+    print(b,c,a)
+elif b > a and b > c and a > c:
+    print(c,a,b)
+elif b > a and b > c and c <= a:
+    print(a,c,b)
+elif c > a and c > b and a > b:
+    print(b,a,c)
+else:
+    print(a,b,c)
 
-for i in numbers:
-    print(i, end=" ")
+
