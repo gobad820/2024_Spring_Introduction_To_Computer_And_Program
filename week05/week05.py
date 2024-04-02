@@ -1,4 +1,3 @@
-# TODO sum a, b
 def sum1():
     a = 5
     b = 5
