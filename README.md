@@ -1,1 +1,1 @@
-# 2024년 봄학기 컴퓨터프로그래밍입문
+# 2024 Introduction to computer and program
