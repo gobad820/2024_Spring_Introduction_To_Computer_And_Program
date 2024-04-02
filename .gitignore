@@ -1,8 +1,0 @@
-*.pdf
-.idea
-*.iml
-*.iws
-*.venv
-.gitignore
-.DS_Store
-*.xml
