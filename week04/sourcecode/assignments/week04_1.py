@@ -1,4 +1,6 @@
 src = input('문자열을 입력하세요: ')
+while not src.isalpha():
+    src = input('문자열을 입력하세요: ')
 zipped_list = []
 temp_character = src[0]
 iteration = 0
