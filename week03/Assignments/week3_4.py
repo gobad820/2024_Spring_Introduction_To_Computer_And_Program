@@ -1,5 +1,6 @@
 n = int(input('숫자를 입력하세요 : '))
 is_prime = True
+
 if n == 1:
     is_prime = False
 elif  n != 2 and n % 2 == 0:
