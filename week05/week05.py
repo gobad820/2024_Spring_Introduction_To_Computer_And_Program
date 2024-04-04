@@ -30,3 +30,9 @@ result = sum(x, y)  # 인자(argument)는 함수를 호출할 때 사용한다.
 # 인자를 sum 함수 호출할때에 전달한다.
 print(f"{x} + {y} = {result}")
 # sum(x, y)를 호출할 때 x, y라는 인자(argument)를 갖고 호출한다.
+
+# 위치 매개면수
+def newsum(x=1,y=1):
+    return x,y
+result = newsum(2) # 하나라도 넣으면 위치에 맞게 전달해준다.
+print(result)
